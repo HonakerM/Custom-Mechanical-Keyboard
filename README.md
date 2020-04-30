@@ -6,3 +6,6 @@ http://www.keyboard-layout-editor.com/##@@=Esc&=F1&=F2&=F3&=F4&=F5&=F6&=F7&=F8&=
 
 ## Plate Designer
 http://builder.swillkb.com/
+
+## Eagle Library
+https://github.com/clueboard/eagle_libs
