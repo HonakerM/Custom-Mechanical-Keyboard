@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="460" y2="-1" width="0" layer="20"/>
+<wire x1="460" y1="-1" x2="460" y2="119" width="0" layer="20"/>
+<wire x1="460" y1="119" x2="0" y2="120" width="0" layer="20"/>
+<wire x1="0" y1="120" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="Keyboard">
+<description>Keyboard Keyswitch PCB footprints for MX and Alps switches.</description>
+<packages>
+<package name="MX-1U-RGB">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="R-" x="-3.81" y="-5.08" drill="1" diameter="2"/>
+<pad name="LED+" x="-1.27" y="-5.08" drill="1" diameter="2" shape="square"/>
+<pad name="G-" x="1.27" y="-5.08" drill="1" diameter="2"/>
+<pad name="B-" x="3.81" y="-5.08" drill="1" diameter="2"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<text x="-3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">R-</text>
+<text x="-3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">R-</text>
+<text x="-1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">+</text>
+<text x="-1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">+</text>
+<text x="1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">G-</text>
+<text x="1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">G-</text>
+<text x="3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">B-</text>
+<text x="3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">B-</text>
+</package>
+<package name="MX-2U-RGB">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="R-" x="-3.81" y="-5.08" drill="1" diameter="2"/>
+<pad name="LED+" x="-1.27" y="-5.08" drill="1" diameter="2" shape="square"/>
+<pad name="G-" x="1.27" y="-5.08" drill="1" diameter="2"/>
+<pad name="B-" x="3.81" y="-5.08" drill="1" diameter="2"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<text x="-3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">R-</text>
+<text x="-3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">R-</text>
+<text x="-1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">+</text>
+<text x="-1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">+</text>
+<text x="1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">G-</text>
+<text x="1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">G-</text>
+<text x="3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">B-</text>
+<text x="3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">B-</text>
+</package>
+<package name="MX-6.25U-RGB">
+<description>Keyboard switch package!</description>
+<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
+<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
+<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
+<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
+<hole x="0" y="0" drill="4"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="-50" y="7" drill="3.05"/>
+<hole x="50" y="7" drill="3.05"/>
+<hole x="-50" y="-8.24" drill="4"/>
+<hole x="50" y="-8.24" drill="4"/>
+<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="R-" x="-3.81" y="-5.08" drill="1" diameter="2"/>
+<pad name="LED+" x="-1.27" y="-5.08" drill="1" diameter="2" shape="square"/>
+<pad name="G-" x="1.27" y="-5.08" drill="1" diameter="2"/>
+<pad name="B-" x="3.81" y="-5.08" drill="1" diameter="2"/>
+<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
+<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<text x="-3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">R-</text>
+<text x="-3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">R-</text>
+<text x="-1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">+</text>
+<text x="-1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">+</text>
+<text x="1.125" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">G-</text>
+<text x="1.125" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">G-</text>
+<text x="3.955" y="-6.985" size="1" layer="21" font="vector" ratio="13" align="center">B-</text>
+<text x="3.955" y="-6.985" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">B-</text>
+</package>
+</packages>
+</library>
+<library name="Components">
+<description>Standard Components used in nearly every electrical design</description>
+<packages>
+<package name="DO-35">
+<pad name="A" x="4.82" y="0" drill="1" diameter="2" shape="square"/>
+<pad name="C" x="-4.82" y="0" drill="1" diameter="2"/>
+<wire x1="-3.683" y1="-1.27" x2="-3.683" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.683" y1="1.27" x2="3.683" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-3.683" y1="1.27" x2="3.683" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.683" y1="-1.27" x2="-3.683" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.635" x2="0.381" y2="0" width="0.127" layer="21"/>
+<wire x1="0.381" y1="0" x2="-0.381" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="-0.381" y2="-0.381" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.381" x2="0.127" y2="0" width="0.127" layer="21"/>
+<wire x1="0.127" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.254" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0.254" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.127" y2="0.127" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.127" x2="-0.127" y2="0" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="1.5" layer="21" font="vector" ratio="13" align="bottom-center">&gt;NAME</text>
+<wire x1="3" y1="1.25" x2="3" y2="-1.25" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="0" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="208.02" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="208.02" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="208.02" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="1" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="36.57" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.57" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="36.57" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="55.62" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="55.62" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="55.62" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="3" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="74.67" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.67" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="74.67" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="4" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="93.72" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="93.72" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="93.72" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="5" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="112.77" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="112.77" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="112.77" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="6" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="131.82" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="131.82" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="131.82" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="7" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="150.87" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="150.87" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="150.87" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="8" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="169.92" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="169.92" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="169.92" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="9" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="188.97" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="188.97" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="188.97" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="A" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="50.86" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="50.86" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="50.86" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="ALT" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="67.53" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.53" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="67.53" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="ALT2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="210.4" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="210.4" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="210.4" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="B" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="136.58" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="136.58" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="136.58" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="BACKSLASH" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="279.46" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="279.46" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="279.46" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="BACKSONG" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="369.95" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="369.95" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="369.95" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="BACKSPACE" library="Keyboard" package="MX-2U-RGB" value="KEYSWITCH-RGBLED-MX-2U-RGB" x="274.7" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="274.7" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="274.7" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="BACKSPACE_1" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="446.15" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="446.15" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="446.15" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="C" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="98.48" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="98.48" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="98.48" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="CAPSLOCK" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="24.66" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.66" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="24.66" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="COMMA" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="193.73" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="193.73" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="193.73" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="CTRL" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="19.9" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.9" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="19.9" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="CTRL2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="281.84" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="281.84" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="281.84" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="D" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="88.96" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.96" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="88.96" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="D0" library="Components" package="DO-35" value="1N4148" x="199.07" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="200.975" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D1" library="Components" package="DO-35" value="1N4148" x="27.62" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.525" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D2" library="Components" package="DO-35" value="1N4148" x="46.67" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.575" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D3" library="Components" package="DO-35" value="1N4148" x="65.72" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.625" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D4" library="Components" package="DO-35" value="1N4148" x="84.77" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="86.675" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D5" library="Components" package="DO-35" value="1N4148" x="103.82" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="105.725" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D6" library="Components" package="DO-35" value="1N4148" x="122.87" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="124.775" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D7" library="Components" package="DO-35" value="1N4148" x="141.92" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="143.825" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D8" library="Components" package="DO-35" value="1N4148" x="160.97" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="162.875" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="D9" library="Components" package="DO-35" value="1N4148" x="180.02" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="181.925" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DA" library="Components" package="DO-35" value="1N4148" x="41.91" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.815" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DALT" library="Components" package="DO-35" value="1N4148" x="58.58" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.485" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DALT2" library="Components" package="DO-35" value="1N4148" x="201.45" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="203.355" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DASH" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="227.07" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.07" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="227.07" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="DB" library="Components" package="DO-35" value="1N4148" x="127.63" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="129.535" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DBACKSLASH" library="Components" package="DO-35" value="1N4148" x="270.51" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="272.415" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DBACKSONG" library="Components" package="DO-35" value="1N4148" x="361" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.905" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DBACKSPACE" library="Components" package="DO-35" value="1N4148" x="265.75" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="267.655" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DBACKSPACE_1" library="Components" package="DO-35" value="1N4148" x="437.2" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="439.105" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DC" library="Components" package="DO-35" value="1N4148" x="89.53" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="91.435" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DCAPSLOCK" library="Components" package="DO-35" value="1N4148" x="15.71" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.615" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DCOMMA" library="Components" package="DO-35" value="1N4148" x="184.78" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="186.685" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DCTRL" library="Components" package="DO-35" value="1N4148" x="10.95" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.855" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DCTRL2" library="Components" package="DO-35" value="1N4148" x="272.89" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="274.795" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DD" library="Components" package="DO-35" value="1N4148" x="80.01" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.915" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DDASH" library="Components" package="DO-35" value="1N4148" x="218.12" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="220.025" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DDELETE" library="Components" package="DO-35" value="1N4148" x="299.08" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="300.985" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DDELETE2" library="Components" package="DO-35" value="1N4148" x="437.2" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="439.105" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DDOWN" library="Components" package="DO-35" value="1N4148" x="318.13" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.035" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DE" library="Components" package="DO-35" value="1N4148" x="75.25" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.155" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DELETE" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="308.03" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="308.03" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="308.03" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="DELETE2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="446.15" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="446.15" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="446.15" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="DEND" library="Components" package="DO-35" value="1N4148" x="318.13" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.035" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DENTER" library="Components" package="DO-35" value="1N4148" x="263.36" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="265.265" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DENTER2" library="Components" package="DO-35" value="1N4148" x="418.15" y="22.23" smashed="yes" rot="R270">
+<attribute name="NAME" x="420.055" y="22.23" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DEQUAL" library="Components" package="DO-35" value="1N4148" x="237.17" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="239.075" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DEQUAL2" library="Components" package="DO-35" value="1N4148" x="418.15" y="60.33" smashed="yes" rot="R270">
+<attribute name="NAME" x="420.055" y="60.33" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DESC" library="Components" package="DO-35" value="1N4148" x="8.57" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.475" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF" library="Components" package="DO-35" value="1N4148" x="99.06" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.965" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF1" library="Components" package="DO-35" value="1N4148" x="27.62" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.525" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF10" library="Components" package="DO-35" value="1N4148" x="199.07" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="200.975" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF11" library="Components" package="DO-35" value="1N4148" x="218.12" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="220.025" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF12" library="Components" package="DO-35" value="1N4148" x="237.17" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="239.075" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF2" library="Components" package="DO-35" value="1N4148" x="46.67" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.575" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF3" library="Components" package="DO-35" value="1N4148" x="65.72" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.625" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF4" library="Components" package="DO-35" value="1N4148" x="84.77" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="86.675" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF5" library="Components" package="DO-35" value="1N4148" x="103.82" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="105.725" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF6" library="Components" package="DO-35" value="1N4148" x="122.87" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="124.775" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF7" library="Components" package="DO-35" value="1N4148" x="141.92" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="143.825" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF8" library="Components" package="DO-35" value="1N4148" x="160.97" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="162.875" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DF9" library="Components" package="DO-35" value="1N4148" x="180.02" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="181.925" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DG" library="Components" package="DO-35" value="1N4148" x="118.11" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.015" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DGRAVE" library="Components" package="DO-35" value="1N4148" x="8.57" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.475" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DH" library="Components" package="DO-35" value="1N4148" x="137.16" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="139.065" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DHOME" library="Components" package="DO-35" value="1N4148" x="318.13" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.035" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DI" library="Components" package="DO-35" value="1N4148" x="170.5" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="172.405" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DINSERT" library="Components" package="DO-35" value="1N4148" x="299.08" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="300.985" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DJ" library="Components" package="DO-35" value="1N4148" x="156.21" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="158.115" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DK" library="Components" package="DO-35" value="1N4148" x="175.26" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="177.165" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_0" library="Components" package="DO-35" value="1N4148" x="370.52" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="372.425" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_1" library="Components" package="DO-35" value="1N4148" x="361" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.905" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_2" library="Components" package="DO-35" value="1N4148" x="380.05" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.955" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_3" library="Components" package="DO-35" value="1N4148" x="399.1" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_4" library="Components" package="DO-35" value="1N4148" x="361" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.905" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_5" library="Components" package="DO-35" value="1N4148" x="437.2" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="439.105" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_52" library="Components" package="DO-35" value="1N4148" x="380.05" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.955" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_6" library="Components" package="DO-35" value="1N4148" x="399.1" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_62" library="Components" package="DO-35" value="1N4148" x="437.2" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="439.105" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_7" library="Components" package="DO-35" value="1N4148" x="361" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.905" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_8" library="Components" package="DO-35" value="1N4148" x="380.05" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.955" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_9" library="Components" package="DO-35" value="1N4148" x="399.1" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_ASTERISK" library="Components" package="DO-35" value="1N4148" x="399.1" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_DASH" library="Components" package="DO-35" value="1N4148" x="418.15" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="420.055" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_DEL" library="Components" package="DO-35" value="1N4148" x="399.1" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DKP_SLASH" library="Components" package="DO-35" value="1N4148" x="380.05" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.955" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DL" library="Components" package="DO-35" value="1N4148" x="194.31" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="196.215" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DLBRACKET" library="Components" package="DO-35" value="1N4148" x="227.65" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="229.555" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DLEFT" library="Components" package="DO-35" value="1N4148" x="299.08" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="300.985" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DM" library="Components" package="DO-35" value="1N4148" x="165.73" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="167.635" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DMENU" library="Components" package="DO-35" value="1N4148" x="249.08" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="250.985" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DN" library="Components" package="DO-35" value="1N4148" x="146.68" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="148.585" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DNEXTSONG" library="Components" package="DO-35" value="1N4148" x="399.1" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="401.005" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DNUMLOCK" library="Components" package="DO-35" value="1N4148" x="361" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="362.905" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DO" library="Components" package="DO-35" value="1N4148" x="189.55" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="191.455" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DOWN" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="327.08" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.08" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="327.08" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="DP" library="Components" package="DO-35" value="1N4148" x="208.6" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="210.505" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPAUSE" library="Components" package="DO-35" value="1N4148" x="337.18" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.085" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPAUSEPLAY" library="Components" package="DO-35" value="1N4148" x="380.05" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="381.955" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPERIOD" library="Components" package="DO-35" value="1N4148" x="203.83" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="205.735" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPGDN" library="Components" package="DO-35" value="1N4148" x="337.18" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.085" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPGUP" library="Components" package="DO-35" value="1N4148" x="337.18" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.085" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DPRTSC" library="Components" package="DO-35" value="1N4148" x="299.08" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="300.985" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DQ" library="Components" package="DO-35" value="1N4148" x="37.15" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.055" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DQUOTE" library="Components" package="DO-35" value="1N4148" x="232.41" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="234.315" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DR" library="Components" package="DO-35" value="1N4148" x="94.3" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.205" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DRANDSONG" library="Components" package="DO-35" value="1N4148" x="418.15" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="420.055" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DRBRACKET" library="Components" package="DO-35" value="1N4148" x="246.7" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="248.605" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DRIGHT" library="Components" package="DO-35" value="1N4148" x="337.18" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="339.085" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DS" library="Components" package="DO-35" value="1N4148" x="60.96" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.865" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSCROLLLOCK" library="Components" package="DO-35" value="1N4148" x="318.13" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.035" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSEMICOLON" library="Components" package="DO-35" value="1N4148" x="213.36" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="215.265" y="50.8" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSHIFT" library="Components" package="DO-35" value="1N4148" x="20.48" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.385" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSHIFT2" library="Components" package="DO-35" value="1N4148" x="258.6" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="260.505" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSLASH" library="Components" package="DO-35" value="1N4148" x="222.88" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="224.785" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DSPACE" library="Components" package="DO-35" value="1N4148" x="130.01" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="131.915" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DT" library="Components" package="DO-35" value="1N4148" x="113.35" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="115.255" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DTAB" library="Components" package="DO-35" value="1N4148" x="13.33" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.235" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DU" library="Components" package="DO-35" value="1N4148" x="151.45" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="153.355" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DUNDERSCORE" library="Components" package="DO-35" value="1N4148" x="437.2" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="439.105" y="88.9" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DUP" library="Components" package="DO-35" value="1N4148" x="318.13" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="320.035" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DV" library="Components" package="DO-35" value="1N4148" x="108.58" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="110.485" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DVOLUMEUP" library="Components" package="DO-35" value="1N4148" x="256.22" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="258.125" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DVOLUMNEDOWN" library="Components" package="DO-35" value="1N4148" x="275.27" y="107.95" smashed="yes" rot="R270">
+<attribute name="NAME" x="277.175" y="107.95" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DW" library="Components" package="DO-35" value="1N4148" x="56.2" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="58.105" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DWIN" library="Components" package="DO-35" value="1N4148" x="34.76" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.665" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DWIN2" library="Components" package="DO-35" value="1N4148" x="225.26" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="227.165" y="12.7" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DX" library="Components" package="DO-35" value="1N4148" x="70.48" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="72.385" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DY" library="Components" package="DO-35" value="1N4148" x="132.4" y="69.85" smashed="yes" rot="R270">
+<attribute name="NAME" x="134.305" y="69.85" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="DZ" library="Components" package="DO-35" value="1N4148" x="51.43" y="31.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.335" y="31.75" size="1.5" layer="21" font="vector" ratio="13" rot="R270" align="bottom-center"/>
+</element>
+<element name="E" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="84.2" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.2" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="84.2" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="END" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="327.08" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.08" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="327.08" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="ENTER" library="Keyboard" package="MX-2U-RGB" value="KEYSWITCH-RGBLED-MX-2U-RGB" x="272.31" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="272.31" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="272.31" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="ENTER2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="427.1" y="22.23" smashed="yes" rot="R180">
+<attribute name="NAME" x="427.1" y="25.03" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="427.1" y="25.03" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="EQUAL" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="246.12" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.12" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="246.12" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="EQUAL2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="427.1" y="60.33" smashed="yes" rot="R180">
+<attribute name="NAME" x="427.1" y="63.13" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="427.1" y="63.13" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="ESC" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="17.52" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.52" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="17.52" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="108.01" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="108.01" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="108.01" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F1" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="36.57" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.57" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="36.57" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F10" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="208.02" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="208.02" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="208.02" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F11" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="227.07" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.07" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="227.07" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F12" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="246.12" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.12" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="246.12" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="55.62" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="55.62" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="55.62" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F3" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="74.67" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="74.67" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="74.67" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F4" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="93.72" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="93.72" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="93.72" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F5" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="112.77" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="112.77" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="112.77" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F6" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="131.82" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="131.82" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="131.82" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F7" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="150.87" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="150.87" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="150.87" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F8" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="169.92" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="169.92" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="169.92" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="F9" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="188.97" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="188.97" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="188.97" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="G" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="127.06" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="127.06" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="127.06" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="GRAVE" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="17.52" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.52" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="17.52" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="H" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="146.11" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="146.11" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="146.11" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="HOME" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="327.08" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.08" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="327.08" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="I" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="179.45" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="179.45" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="179.45" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="INSERT" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="308.03" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="308.03" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="308.03" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="J" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="165.16" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="165.16" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="165.16" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="K" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="184.21" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="184.21" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="184.21" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_0" library="Keyboard" package="MX-2U-RGB" value="KEYSWITCH-RGBLED-MX-2U-RGB" x="379.47" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="379.47" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="379.47" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_1" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="369.95" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="369.95" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="369.95" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="389" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="389" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="389" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_3" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_4" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="369.95" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="369.95" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="369.95" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_5" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="446.15" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="446.15" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="446.15" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_52" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="389" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="389" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="389" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_6" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_62" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="446.15" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="446.15" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="446.15" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_7" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="369.95" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="369.95" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="369.95" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_8" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="389" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="389" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="389" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_9" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_ASTERISK" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_DASH" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="427.1" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="427.1" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="427.1" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_DEL" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="KP_SLASH" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="389" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="389" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="389" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="L" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="203.26" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="203.26" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="203.26" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="LBRACKET" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="236.6" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="236.6" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="236.6" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="LEFT" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="308.03" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="308.03" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="308.03" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="M" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="174.68" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="174.68" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="174.68" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="MENU" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="258.03" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="258.03" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="258.03" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="N" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="155.63" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.63" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="155.63" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="NEXTSONG" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="408.05" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="408.05" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="408.05" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="NUMLOCK" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="369.95" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="369.95" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="369.95" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="O" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="198.5" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="198.5" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="198.5" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="P" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="217.55" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="217.55" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="217.55" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PAUSE" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="346.13" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.13" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="346.13" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PAUSEPLAY" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="389" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="389" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="389" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PERIOD" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="212.78" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="212.78" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="212.78" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PGDN" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="346.13" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.13" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="346.13" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PGUP" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="346.13" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.13" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="346.13" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="PRTSC" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="308.03" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="308.03" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="308.03" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="Q" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="46.1" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.1" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="46.1" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="QUOTE" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="241.36" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="241.36" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="241.36" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="R" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="103.25" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="103.25" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="103.25" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="RANDSONG" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="427.1" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="427.1" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="427.1" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="RBRACKET" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="255.65" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="255.65" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="255.65" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="RIGHT" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="346.13" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.13" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="346.13" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="S" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="69.91" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="69.91" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="69.91" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SCROLLLOCK" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="327.08" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.08" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="327.08" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SEMICOLON" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="222.31" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="222.31" y="53.6" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="222.31" y="53.6" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SHIFT" library="Keyboard" package="MX-2U-RGB" value="KEYSWITCH-RGBLED-MX-2U-RGB" x="29.43" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.43" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="29.43" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SHIFT2" library="Keyboard" package="MX-2U-RGB" value="KEYSWITCH-RGBLED-MX-2U-RGB" x="267.55" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="267.55" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="267.55" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SLASH" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="231.83" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="231.83" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="231.83" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="SPACE" library="Keyboard" package="MX-6.25U-RGB" value="KEYSWITCH-RGBLED-MX-6.25U-RGB" x="138.96" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="138.96" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="138.96" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="T" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="122.3" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="122.3" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="122.3" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="TAB" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="22.28" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.28" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="22.28" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="U" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="160.4" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="160.4" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="160.4" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="UNDERSCORE" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="446.15" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="446.15" y="91.7" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="446.15" y="91.7" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="UP" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="327.08" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="327.08" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="327.08" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="V" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="117.53" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.53" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="117.53" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="VOLUMEUP" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="265.17" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="265.17" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="265.17" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="VOLUMNEDOWN" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="284.22" y="107.95" smashed="yes" rot="R180">
+<attribute name="NAME" x="284.22" y="110.75" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="284.22" y="110.75" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="W" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="65.15" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="65.15" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="65.15" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="WIN" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="43.71" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.71" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="43.71" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="WIN2" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="234.21" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="234.21" y="15.5" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="234.21" y="15.5" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="X" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="79.43" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="79.43" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="79.43" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="Y" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="141.35" y="69.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="141.35" y="72.65" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="141.35" y="72.65" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+<element name="Z" library="Keyboard" package="MX-1U-RGB" value="KEYSWITCH-RGBLED-MX-1U-RGB" x="60.38" y="31.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.38" y="34.55" size="1" layer="21" font="vector" ratio="13" rot="R180" align="center"/>
+<attribute name="NAME" x="60.38" y="34.55" size="1" layer="22" font="vector" ratio="13" rot="MR180" align="center"/>
+</element>
+</elements>
+<signals>
+<signal name="ROW1.5">
+<contactref element="DESC" pad="C"/>
+<contactref element="DF1" pad="C"/>
+<contactref element="DF2" pad="C"/>
+<contactref element="DF3" pad="C"/>
+<contactref element="DF4" pad="C"/>
+<contactref element="DF5" pad="C"/>
+<contactref element="DF6" pad="C"/>
+<contactref element="DF7" pad="C"/>
+<contactref element="DF8" pad="C"/>
+<contactref element="DF9" pad="C"/>
+<contactref element="DF10" pad="C"/>
+<contactref element="DF11" pad="C"/>
+<contactref element="DF12" pad="C"/>
+<contactref element="DVOLUMEUP" pad="C"/>
+<contactref element="DVOLUMNEDOWN" pad="C"/>
+<contactref element="DPRTSC" pad="C"/>
+<contactref element="DSCROLLLOCK" pad="C"/>
+<contactref element="DPAUSE" pad="C"/>
+<contactref element="DBACKSONG" pad="C"/>
+<contactref element="DPAUSEPLAY" pad="C"/>
+<contactref element="DNEXTSONG" pad="C"/>
+<contactref element="DRANDSONG" pad="C"/>
+<wire x1="237.17" y1="112.77" x2="256.22" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="218.12" y1="112.77" x2="237.17" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="199.07" y1="112.77" x2="218.12" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="180.02" y1="112.77" x2="199.07" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="160.97" y1="112.77" x2="180.02" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="141.92" y1="112.77" x2="160.97" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="122.87" y1="112.77" x2="141.92" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="103.82" y1="112.77" x2="122.87" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="84.77" y1="112.77" x2="103.82" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="65.72" y1="112.77" x2="84.77" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="46.67" y1="112.77" x2="65.72" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="27.62" y1="112.77" x2="46.67" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="8.57" y1="112.77" x2="27.62" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="275.27" y1="112.77" x2="256.22" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="299.08" y1="112.77" x2="275.27" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="318.13" y1="112.77" x2="299.08" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="337.18" y1="112.77" x2="318.13" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="361" y1="112.77" x2="337.18" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="380.05" y1="112.77" x2="361" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="399.1" y1="112.77" x2="380.05" y2="112.77" width="0" layer="19" extent="1-1"/>
+<wire x1="418.15" y1="112.77" x2="399.1" y2="112.77" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW2.5">
+<contactref element="DGRAVE" pad="C"/>
+<contactref element="D1" pad="C"/>
+<contactref element="D2" pad="C"/>
+<contactref element="D3" pad="C"/>
+<contactref element="D4" pad="C"/>
+<contactref element="D5" pad="C"/>
+<contactref element="D6" pad="C"/>
+<contactref element="D7" pad="C"/>
+<contactref element="D8" pad="C"/>
+<contactref element="D9" pad="C"/>
+<contactref element="D0" pad="C"/>
+<contactref element="DDASH" pad="C"/>
+<contactref element="DEQUAL" pad="C"/>
+<contactref element="DBACKSPACE" pad="C"/>
+<contactref element="DINSERT" pad="C"/>
+<contactref element="DHOME" pad="C"/>
+<contactref element="DPGUP" pad="C"/>
+<contactref element="DNUMLOCK" pad="C"/>
+<contactref element="DKP_SLASH" pad="C"/>
+<contactref element="DKP_ASTERISK" pad="C"/>
+<contactref element="DKP_DASH" pad="C"/>
+<contactref element="DUNDERSCORE" pad="C"/>
+<wire x1="237.17" y1="93.72" x2="265.75" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="218.12" y1="93.72" x2="237.17" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="199.07" y1="93.72" x2="218.12" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="180.02" y1="93.72" x2="199.07" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="160.97" y1="93.72" x2="180.02" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="141.92" y1="93.72" x2="160.97" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="122.87" y1="93.72" x2="141.92" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="103.82" y1="93.72" x2="122.87" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="84.77" y1="93.72" x2="103.82" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="65.72" y1="93.72" x2="84.77" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="46.67" y1="93.72" x2="65.72" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="27.62" y1="93.72" x2="46.67" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="8.57" y1="93.72" x2="27.62" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="299.08" y1="93.72" x2="265.75" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="318.13" y1="93.72" x2="299.08" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="337.18" y1="93.72" x2="318.13" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="361" y1="93.72" x2="337.18" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="380.05" y1="93.72" x2="361" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="399.1" y1="93.72" x2="380.05" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="418.15" y1="93.72" x2="399.1" y2="93.72" width="0" layer="19" extent="1-1"/>
+<wire x1="437.2" y1="93.72" x2="418.15" y2="93.72" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW3.5">
+<contactref element="DTAB" pad="C"/>
+<contactref element="DQ" pad="C"/>
+<contactref element="DW" pad="C"/>
+<contactref element="DE" pad="C"/>
+<contactref element="DR" pad="C"/>
+<contactref element="DT" pad="C"/>
+<contactref element="DY" pad="C"/>
+<contactref element="DU" pad="C"/>
+<contactref element="DI" pad="C"/>
+<contactref element="DO" pad="C"/>
+<contactref element="DP" pad="C"/>
+<contactref element="DLBRACKET" pad="C"/>
+<contactref element="DRBRACKET" pad="C"/>
+<contactref element="DBACKSLASH" pad="C"/>
+<contactref element="DDELETE" pad="C"/>
+<contactref element="DEND" pad="C"/>
+<contactref element="DPGDN" pad="C"/>
+<contactref element="DKP_7" pad="C"/>
+<contactref element="DKP_8" pad="C"/>
+<contactref element="DKP_9" pad="C"/>
+<wire x1="318.13" y1="74.67" x2="299.08" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="337.18" y1="74.67" x2="318.13" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="361" y1="74.67" x2="337.18" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="380.05" y1="74.67" x2="361" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="399.1" y1="74.67" x2="380.05" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="270.51" y1="74.67" x2="299.08" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="246.7" y1="74.67" x2="270.51" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="227.65" y1="74.67" x2="246.7" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="208.6" y1="74.67" x2="227.65" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="189.55" y1="74.67" x2="208.6" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="170.5" y1="74.67" x2="189.55" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="151.45" y1="74.67" x2="170.5" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="132.4" y1="74.67" x2="151.45" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="113.35" y1="74.67" x2="132.4" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="94.3" y1="74.67" x2="113.35" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="75.25" y1="74.67" x2="94.3" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="56.2" y1="74.67" x2="75.25" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="37.15" y1="74.67" x2="56.2" y2="74.67" width="0" layer="19" extent="1-1"/>
+<wire x1="13.33" y1="74.67" x2="37.15" y2="74.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW4.5">
+<contactref element="DCAPSLOCK" pad="C"/>
+<contactref element="DA" pad="C"/>
+<contactref element="DS" pad="C"/>
+<contactref element="DD" pad="C"/>
+<contactref element="DF" pad="C"/>
+<contactref element="DG" pad="C"/>
+<contactref element="DH" pad="C"/>
+<contactref element="DJ" pad="C"/>
+<contactref element="DK" pad="C"/>
+<contactref element="DL" pad="C"/>
+<contactref element="DSEMICOLON" pad="C"/>
+<contactref element="DQUOTE" pad="C"/>
+<contactref element="DENTER" pad="C"/>
+<contactref element="DKP_4" pad="C"/>
+<contactref element="DKP_52" pad="C"/>
+<contactref element="DKP_6" pad="C"/>
+<contactref element="DKP_62" pad="C"/>
+<wire x1="232.41" y1="55.62" x2="263.36" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="213.36" y1="55.62" x2="232.41" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="194.31" y1="55.62" x2="213.36" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="175.26" y1="55.62" x2="194.31" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="156.21" y1="55.62" x2="175.26" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="137.16" y1="55.62" x2="156.21" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="118.11" y1="55.62" x2="137.16" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="99.06" y1="55.62" x2="118.11" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="55.62" x2="99.06" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="60.96" y1="55.62" x2="80.01" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="55.62" x2="60.96" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="15.71" y1="55.62" x2="41.91" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="361" y1="55.62" x2="263.36" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="380.05" y1="55.62" x2="361" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="399.1" y1="55.62" x2="380.05" y2="55.62" width="0" layer="19" extent="1-1"/>
+<wire x1="437.2" y1="55.62" x2="399.1" y2="55.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW5.5">
+<contactref element="DSHIFT" pad="C"/>
+<contactref element="DZ" pad="C"/>
+<contactref element="DX" pad="C"/>
+<contactref element="DC" pad="C"/>
+<contactref element="DV" pad="C"/>
+<contactref element="DB" pad="C"/>
+<contactref element="DN" pad="C"/>
+<contactref element="DM" pad="C"/>
+<contactref element="DCOMMA" pad="C"/>
+<contactref element="DPERIOD" pad="C"/>
+<contactref element="DSLASH" pad="C"/>
+<contactref element="DSHIFT2" pad="C"/>
+<contactref element="DUP" pad="C"/>
+<contactref element="DKP_1" pad="C"/>
+<contactref element="DKP_2" pad="C"/>
+<contactref element="DKP_3" pad="C"/>
+<wire x1="361" y1="36.57" x2="318.13" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="380.05" y1="36.57" x2="361" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="399.1" y1="36.57" x2="380.05" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="258.6" y1="36.57" x2="318.13" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="222.88" y1="36.57" x2="258.6" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="203.83" y1="36.57" x2="222.88" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="184.78" y1="36.57" x2="203.83" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="165.73" y1="36.57" x2="184.78" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="146.68" y1="36.57" x2="165.73" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="127.63" y1="36.57" x2="146.68" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="108.58" y1="36.57" x2="127.63" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="89.53" y1="36.57" x2="108.58" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="70.48" y1="36.57" x2="89.53" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="51.43" y1="36.57" x2="70.48" y2="36.57" width="0" layer="19" extent="1-1"/>
+<wire x1="20.48" y1="36.57" x2="51.43" y2="36.57" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW6.5">
+<contactref element="DCTRL" pad="C"/>
+<contactref element="DWIN" pad="C"/>
+<contactref element="DALT" pad="C"/>
+<contactref element="DSPACE" pad="C"/>
+<contactref element="DALT2" pad="C"/>
+<contactref element="DWIN2" pad="C"/>
+<contactref element="DMENU" pad="C"/>
+<contactref element="DCTRL2" pad="C"/>
+<contactref element="DLEFT" pad="C"/>
+<contactref element="DDOWN" pad="C"/>
+<contactref element="DRIGHT" pad="C"/>
+<contactref element="DKP_0" pad="C"/>
+<contactref element="DKP_DEL" pad="C"/>
+<contactref element="DBACKSPACE_1" pad="C"/>
+<wire x1="399.1" y1="17.52" x2="370.52" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="337.18" y1="17.52" x2="370.52" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="318.13" y1="17.52" x2="337.18" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="299.08" y1="17.52" x2="318.13" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="272.89" y1="17.52" x2="299.08" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="249.08" y1="17.52" x2="272.89" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="225.26" y1="17.52" x2="249.08" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="201.45" y1="17.52" x2="225.26" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="437.2" y1="17.52" x2="399.1" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="130.01" y1="17.52" x2="201.45" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="58.58" y1="17.52" x2="130.01" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="34.76" y1="17.52" x2="58.58" y2="17.52" width="0" layer="19" extent="1-1"/>
+<wire x1="10.95" y1="17.52" x2="34.76" y2="17.52" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+</eagle>
