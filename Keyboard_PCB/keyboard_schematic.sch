@@ -20274,7 +20274,7 @@ USB_MICRO-B
 <pinref part="DESC" gate="D$1" pin="A"/>
 </segment>
 </net>
-<net name="N$116" class="0">
+<net name="XTAL1" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="104.14" x2="269.24" y2="104.14" width="0.1524" layer="91"/>
@@ -20283,9 +20283,10 @@ USB_MICRO-B
 <wire x1="269.24" y1="109.22" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
 <junction x="269.24" y="104.14"/>
 <pinref part="Y2" gate="G$1" pin="1"/>
+<label x="289.56" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$117" class="0">
+<net name="XTAL2" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="104.14" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
@@ -20293,6 +20294,7 @@ USB_MICRO-B
 <wire x1="309.88" y1="104.14" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="284.48" y="104.14"/>
 <pinref part="Y2" gate="G$1" pin="2"/>
+<label x="289.56" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -20436,7 +20438,7 @@ USB_MICRO-B
 <junction x="307.34" y="149.86"/>
 </segment>
 </net>
-<net name="N$118" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
 <pinref part="U$1" gate="G$1" pin="!RESET"/>
@@ -20446,16 +20448,18 @@ USB_MICRO-B
 <wire x1="292.1" y1="165.1" x2="294.64" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="165.1" x2="294.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="294.64" y="154.94"/>
+<label x="297.18" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$119" class="0">
+<net name="PE2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="PE2/!HWB"/>
 <wire x1="307.34" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="307.34" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$121" class="0">
+<net name="D+USB" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="226.06" y1="137.16" x2="261.62" y2="137.16" width="0.1524" layer="91"/>
@@ -20464,7 +20468,7 @@ USB_MICRO-B
 <wire x1="261.62" y1="121.92" x2="287.02" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$122" class="0">
+<net name="D-USB" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="226.06" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
@@ -20473,25 +20477,26 @@ USB_MICRO-B
 <wire x1="274.32" y1="119.38" x2="259.08" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$123" class="0">
+<net name="D+32U" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="D+"/>
 <wire x1="297.18" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$124" class="0">
+<net name="D-32U4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D-"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="309.88" y1="119.38" x2="284.48" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$125" class="0">
+<net name="UCAP" class="0">
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="UCAP"/>
 <wire x1="284.48" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
+<label x="287.02" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COL7" class="0">
