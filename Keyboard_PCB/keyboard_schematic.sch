@@ -9050,7 +9050,7 @@
 <part name="DKP_3" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="ENTER2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DENTER2" library="Components" deviceset="DIODE" device="-SOD-123"/>
-<part name="DELETE2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="KP_DELETE2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DDELETE2" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="CTRL" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DCTRL" library="Components" deviceset="DIODE" device="-SOD-123"/>
@@ -9783,7 +9783,7 @@
 <attribute name="NAME" x="929.5384" y="-272.8214" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="936.6758" y="-273.0754" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="DELETE2" gate="G$1" x="963.93" y="-266.7" smashed="yes">
+<instance part="KP_DELETE2" gate="G$1" x="963.93" y="-266.7" smashed="yes">
 <attribute name="NAME" x="957.12" y="-261.382" size="1" layer="95"/>
 </instance>
 <instance part="DDELETE2" gate="D$1" x="966.47" y="-251.46" smashed="yes" rot="R90">
@@ -10809,7 +10809,7 @@
 </net>
 <net name="N$101" class="0">
 <segment>
-<pinref part="DELETE2" gate="G$1" pin="P1"/>
+<pinref part="KP_DELETE2" gate="G$1" pin="P1"/>
 <pinref part="DDELETE2" gate="D$1" pin="A"/>
 </segment>
 </net>
