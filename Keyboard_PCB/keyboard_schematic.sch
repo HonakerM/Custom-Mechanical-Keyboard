@@ -18597,16 +18597,16 @@ USB_MICRO-B
 <part name="DM2" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="DM1" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="DLOCK" library="Components" deviceset="DIODE" device="-SOD-123"/>
-<part name="M1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-MX-1U-SMDRGB"/>
 <part name="LOCK" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="RANDSONG" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DNEXTSONG1" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-GROUNDED" device="SMD-3.2X2.5" package3d_urn="urn:adsk.eagle:package:37521/1"/>
-<part name="ESC1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
-<part name="GRAVE1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
-<part name="TAB1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
-<part name="CAPSLOCK1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
-<part name="SHIFT1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-2U-SMDRGB"/>
+<part name="M6" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="M5" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="M4" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="M3" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="M2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
+<part name="CTRL1" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 </parts>
 <sheets>
 <sheet>
@@ -19515,16 +19515,13 @@ USB_MICRO-B
 <attribute name="NAME" x="11.8364" y="-253.7714" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="18.9738" y="-254.0254" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="DM1" gate="D$1" x="14.478" y="-322.834" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.8364" y="-325.1454" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="18.9738" y="-325.3994" size="1.778" layer="96" rot="R90"/>
+<instance part="DM1" gate="D$1" x="14.478" y="-322.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.8364" y="-324.8914" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.9738" y="-325.1454" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="DLOCK" gate="D$1" x="966.47" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="963.8284" y="12.9286" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="970.9658" y="12.6746" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="M1" gate="G$1" x="11.938" y="-337.82" smashed="yes">
-<attribute name="NAME" x="5.128" y="-332.502" size="1" layer="95"/>
 </instance>
 <instance part="LOCK" gate="G$1" x="963.93" y="0" smashed="yes">
 <attribute name="NAME" x="957.12" y="5.318" size="1" layer="95"/>
@@ -19539,20 +19536,23 @@ USB_MICRO-B
 <instance part="Y2" gate="G$1" x="276.86" y="104.14" smashed="yes">
 <attribute name="NAME" x="275.59" y="107.696" size="1.778" layer="95" font="vector" align="top-right"/>
 </instance>
-<instance part="ESC1" gate="G$1" x="11.938" y="0" smashed="yes">
+<instance part="M6" gate="G$1" x="11.938" y="0" smashed="yes">
 <attribute name="NAME" x="5.128" y="5.318" size="1" layer="95"/>
 </instance>
-<instance part="GRAVE1" gate="G$1" x="11.938" y="-66.04" smashed="yes">
+<instance part="M5" gate="G$1" x="11.938" y="-66.04" smashed="yes">
 <attribute name="NAME" x="5.128" y="-60.722" size="1" layer="95"/>
 </instance>
-<instance part="TAB1" gate="G$1" x="11.938" y="-134.62" smashed="yes">
+<instance part="M4" gate="G$1" x="11.938" y="-134.62" smashed="yes">
 <attribute name="NAME" x="5.128" y="-129.302" size="1" layer="95"/>
 </instance>
-<instance part="CAPSLOCK1" gate="G$1" x="11.938" y="-195.58" smashed="yes">
+<instance part="M3" gate="G$1" x="11.938" y="-195.58" smashed="yes">
 <attribute name="NAME" x="5.128" y="-190.262" size="1" layer="95"/>
 </instance>
-<instance part="SHIFT1" gate="G$1" x="11.938" y="-266.7" smashed="yes">
+<instance part="M2" gate="G$1" x="11.938" y="-266.7" smashed="yes">
 <attribute name="NAME" x="5.128" y="-261.382" size="1" layer="95"/>
+</instance>
+<instance part="CTRL1" gate="G$1" x="11.938" y="-337.82" smashed="yes">
+<attribute name="NAME" x="5.128" y="-332.502" size="1" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -19573,12 +19573,12 @@ USB_MICRO-B
 </bus>
 <bus name="ROW4:ROW4.1,ROW4.2">
 <segment>
-<wire x1="17.78" y1="-170.18" x2="967.74" y2="-170.18" width="0.762" layer="92"/>
+<wire x1="15.24" y1="-170.18" x2="967.74" y2="-170.18" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="ROW5:ROW5.1,ROW5.2">
 <segment>
-<wire x1="20.32" y1="-241.3" x2="967.74" y2="-241.3" width="0.762" layer="92"/>
+<wire x1="17.78" y1="-241.3" x2="965.2" y2="-241.3" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="ROW6:ROW6.1">
@@ -21255,7 +21255,7 @@ USB_MICRO-B
 <net name="ROW6.1" class="0">
 <segment>
 <pinref part="DM1" gate="D$1" pin="C"/>
-<wire x1="14.478" y1="-317.754" x2="14.478" y2="-313.182" width="0.1524" layer="91"/>
+<wire x1="14.478" y1="-317.5" x2="14.478" y2="-313.182" width="0.1524" layer="91"/>
 <wire x1="14.478" y1="-313.182" x2="15.24" y2="-312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -21343,7 +21343,6 @@ USB_MICRO-B
 <wire x1="0" y1="-33.02" x2="0" y2="0" width="0.1524" layer="91"/>
 <junction x="33.02" y="-33.02"/>
 <wire x1="1.778" y1="2.54" x2="0" y2="0" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="P0"/>
 <wire x1="0" y1="-33.02" x2="0" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="0" y1="-63.5" x2="0" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="0" y1="-132.08" x2="0" y2="-193.04" width="0.1524" layer="91"/>
@@ -21351,22 +21350,23 @@ USB_MICRO-B
 <wire x1="0" y1="-264.16" x2="0" y2="-335.28" width="0.1524" layer="91"/>
 <wire x1="0" y1="-335.28" x2="1.778" y2="-335.28" width="0.1524" layer="91"/>
 <junction x="0" y="-33.02"/>
-<pinref part="ESC1" gate="G$1" pin="P0"/>
-<pinref part="GRAVE1" gate="G$1" pin="P0"/>
+<pinref part="M6" gate="G$1" pin="P0"/>
+<pinref part="M5" gate="G$1" pin="P0"/>
 <wire x1="1.778" y1="-63.5" x2="0" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="0" y="-63.5"/>
-<pinref part="TAB1" gate="G$1" pin="P0"/>
+<pinref part="M4" gate="G$1" pin="P0"/>
 <wire x1="1.778" y1="-132.08" x2="0" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="0" y="-132.08"/>
-<pinref part="CAPSLOCK1" gate="G$1" pin="P0"/>
+<pinref part="M3" gate="G$1" pin="P0"/>
 <wire x1="1.778" y1="-193.04" x2="0" y2="-193.04" width="0.1524" layer="91"/>
 <junction x="0" y="-193.04"/>
-<pinref part="SHIFT1" gate="G$1" pin="P0"/>
 <wire x1="1.778" y1="-264.16" x2="0" y2="-264.16" width="0.1524" layer="91"/>
 <junction x="0" y="-264.16"/>
 <wire x1="0" y1="0" x2="0" y2="40.64" width="0.1524" layer="91"/>
 <junction x="0" y="0"/>
 <label x="0" y="40.64" size="1.778" layer="95" rot="R90"/>
+<pinref part="M2" gate="G$1" pin="P0"/>
+<pinref part="CTRL1" gate="G$1" pin="P0"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PF7(ADC7)"/>
@@ -21376,32 +21376,26 @@ USB_MICRO-B
 </net>
 <net name="N$120" class="0">
 <segment>
-<pinref part="ESC1" gate="G$1" pin="P1"/>
+<pinref part="M6" gate="G$1" pin="P1"/>
 <pinref part="DM6" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="N$127" class="0">
 <segment>
-<pinref part="GRAVE1" gate="G$1" pin="P1"/>
+<pinref part="M5" gate="G$1" pin="P1"/>
 <pinref part="DM5" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="N$128" class="0">
 <segment>
-<pinref part="TAB1" gate="G$1" pin="P1"/>
+<pinref part="M4" gate="G$1" pin="P1"/>
 <pinref part="DM4" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="N$129" class="0">
 <segment>
-<pinref part="CAPSLOCK1" gate="G$1" pin="P1"/>
+<pinref part="M3" gate="G$1" pin="P1"/>
 <pinref part="DM3" gate="D$1" pin="A"/>
-</segment>
-</net>
-<net name="N$130" class="0">
-<segment>
-<pinref part="SHIFT1" gate="G$1" pin="P1"/>
-<pinref part="DM2" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="COL2" class="0">
@@ -21996,6 +21990,18 @@ USB_MICRO-B
 <pinref part="U$1" gate="G$1" pin="PE6"/>
 <wire x1="345.44" y1="114.3" x2="353.06" y2="114.3" width="0.1524" layer="91"/>
 <label x="353.06" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$126" class="0">
+<segment>
+<pinref part="M2" gate="G$1" pin="P1"/>
+<pinref part="DM2" gate="D$1" pin="A"/>
+</segment>
+</net>
+<net name="N$130" class="0">
+<segment>
+<pinref part="CTRL1" gate="G$1" pin="P1"/>
+<pinref part="DM1" gate="D$1" pin="A"/>
 </segment>
 </net>
 </nets>

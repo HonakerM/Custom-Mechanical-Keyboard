@@ -282,30 +282,6 @@
 <text x="0" y="-7" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MX-1U-SMDRGB">
-<description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
-<wire x1="-1.6" y1="-5.9" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="1.6" y2="-3.1" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-3.1" x2="1.6" y2="-5.9" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-5.9" x2="-1.6" y2="-5.9" width="0.125" layer="22"/>
-<hole x="0" y="0" drill="4"/>
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
-<hole x="0" y="-4.5" drill="2.4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<smd name="LED+" x="2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="R-" x="-2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="G-" x="-2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<smd name="B-" x="2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<text x="0" y="-7" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
-<text x="0" y="-7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="Components">
@@ -2949,10 +2925,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="442.26" y="113" size="1" layer="21" font="vector" ratio="13" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="444.26" y="113" size="1" layer="21" font="vector" ratio="13" rot="R90" align="top-center"/>
 </element>
-<element name="M1" library="Keyboard" package="MX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-MX-1U-SMDRGB" x="-11.78" y="11.7" smashed="yes">
-<attribute name="NAME" x="-11.78" y="4.7" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-11.78" y="4.7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
 <element name="LOCK" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="434.8" y="105.95" smashed="yes">
 <attribute name="NAME" x="434.8" y="98.95" size="1" layer="21" font="vector" ratio="13" align="center"/>
 </element>
@@ -2966,25 +2938,29 @@ design rules under a new name.</description>
 <element name="Y2" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="CRYSTAL-SMD-3.2X2.5MM" package3d_urn="urn:adsk.eagle:package:37521/1" value="CRYSTAL-GROUNDEDSMD-3.2X2.5" x="394.6398" y="140.843" smashed="yes" rot="R90">
 <attribute name="NAME" x="393.1158" y="140.843" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
-<element name="ESC1" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-46.5328" y="-71.4502" smashed="yes">
-<attribute name="NAME" x="-46.5328" y="-78.4502" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-46.5328" y="-78.4502" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M6" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="105.95" smashed="yes">
+<attribute name="NAME" x="-12.53" y="98.95" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="98.95" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="GRAVE1" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-62.1792" y="-87.5792" smashed="yes">
-<attribute name="NAME" x="-62.1792" y="-94.5792" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-62.1792" y="-94.5792" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M5" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="86.9" smashed="yes">
+<attribute name="NAME" x="-12.53" y="79.9" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="79.9" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="TAB1" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-46.5328" y="-87.5792" smashed="yes">
-<attribute name="NAME" x="-46.5328" y="-94.5792" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-46.5328" y="-94.5792" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M4" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="67.85" smashed="yes">
+<attribute name="NAME" x="-12.53" y="60.85" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="60.85" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="CAPSLOCK1" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-62.1792" y="-71.4502" smashed="yes">
-<attribute name="NAME" x="-62.1792" y="-78.4502" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-62.1792" y="-78.4502" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M3" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="48.8" smashed="yes">
+<attribute name="NAME" x="-12.53" y="41.8" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="41.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="SHIFT1" library="Keyboard" package="ALPSMX-2U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-2U-SMDRGB" x="-56.0324" y="-53.086" smashed="yes">
-<attribute name="NAME" x="-56.0324" y="-60.086" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="-56.0324" y="-60.086" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="M2" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="29.75" smashed="yes">
+<attribute name="NAME" x="-12.53" y="22.75" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="22.75" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+</element>
+<element name="CTRL1" library="Keyboard" package="ALPSMX-1U-SMDRGB" value="KEYSWITCH-RGBSMDLED-ALPSMX-1U-SMDRGB" x="-12.53" y="10.7" smashed="yes">
+<attribute name="NAME" x="-12.53" y="3.7" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="-12.53" y="3.7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>
@@ -4334,74 +4310,69 @@ design rules under a new name.</description>
 <contactref element="CAPSLOCK" pad="ALPS1"/>
 <contactref element="SHIFT" pad="ALPS1"/>
 <contactref element="SHIFT" pad="MX1"/>
-<contactref element="M1" pad="MX1"/>
-<contactref element="ESC1" pad="MX1"/>
-<contactref element="ESC1" pad="ALPS1"/>
-<contactref element="GRAVE1" pad="MX1"/>
-<contactref element="GRAVE1" pad="ALPS1"/>
-<contactref element="TAB1" pad="MX1"/>
-<contactref element="TAB1" pad="ALPS1"/>
-<contactref element="CAPSLOCK1" pad="MX1"/>
-<contactref element="CAPSLOCK1" pad="ALPS1"/>
-<contactref element="SHIFT1" pad="ALPS1"/>
-<contactref element="SHIFT1" pad="MX1"/>
+<contactref element="M6" pad="MX1"/>
+<contactref element="M6" pad="ALPS1"/>
+<contactref element="M5" pad="MX1"/>
+<contactref element="M5" pad="ALPS1"/>
+<contactref element="M4" pad="MX1"/>
+<contactref element="M4" pad="ALPS1"/>
+<contactref element="M3" pad="MX1"/>
+<contactref element="M3" pad="ALPS1"/>
 <contactref element="U$1" pad="36"/>
-<wire x1="-64.6792" y1="-83.5792" x2="-65.9892" y2="-85.0392" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.3428" y1="-85.0392" x2="-64.6792" y2="-83.5792" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.0328" y1="-83.5792" x2="-50.3428" y2="-85.0392" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.9892" y1="-68.9102" x2="-64.6792" y2="-83.5792" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.6792" y1="-67.4502" x2="-65.9892" y2="-68.9102" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.3428" y1="-68.9102" x2="-64.6792" y2="-67.4502" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.0328" y1="-67.4502" x2="-50.3428" y2="-68.9102" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.8424" y1="-50.546" x2="-64.6792" y2="-67.4502" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.5324" y1="-49.086" x2="-59.8424" y2="-50.546" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.59" y1="14.24" x2="-58.5324" y2="-49.086" width="0" layer="19" extent="1-1"/>
-<wire x1="14.62" y1="32.29" x2="-15.59" y2="14.24" width="0" layer="19" extent="1-1"/>
-<wire x1="15.93" y1="33.75" x2="14.62" y2="32.29" width="0" layer="19" extent="1-1"/>
-<wire x1="9.85" y1="51.34" x2="15.93" y2="33.75" width="0" layer="19" extent="1-1"/>
-<wire x1="11.16" y1="52.8" x2="9.85" y2="51.34" width="0" layer="19" extent="1-1"/>
-<wire x1="7.47" y1="70.39" x2="11.16" y2="52.8" width="0" layer="19" extent="1-1"/>
-<wire x1="8.78" y1="71.85" x2="7.47" y2="70.39" width="0" layer="19" extent="1-1"/>
-<wire x1="2.71" y1="89.44" x2="8.78" y2="71.85" width="0" layer="19" extent="1-1"/>
-<wire x1="4.02" y1="90.9" x2="2.71" y2="89.44" width="0" layer="19" extent="1-1"/>
-<wire x1="2.71" y1="108.49" x2="4.02" y2="90.9" width="0" layer="19" extent="1-1"/>
-<wire x1="4.02" y1="109.95" x2="2.71" y2="108.49" width="0" layer="19" extent="1-1"/>
+<contactref element="M2" pad="MX1"/>
+<contactref element="M2" pad="ALPS1"/>
+<contactref element="CTRL1" pad="MX1"/>
+<contactref element="CTRL1" pad="ALPS1"/>
+<wire x1="2.71" y1="108.49" x2="4.02" y2="109.95" width="0" layer="19" extent="1-1"/>
+<wire x1="4.02" y1="90.9" x2="2.71" y2="108.49" width="0" layer="19" extent="1-1"/>
+<wire x1="2.71" y1="89.44" x2="4.02" y2="90.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="109.95" x2="2.71" y2="108.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="108.49" x2="-15.03" y2="109.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="90.9" x2="-16.34" y2="108.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="89.44" x2="-15.03" y2="90.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="71.85" x2="-16.34" y2="89.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="70.39" x2="-15.03" y2="71.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="52.8" x2="-16.34" y2="70.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="51.34" x2="-15.03" y2="52.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="33.75" x2="-16.34" y2="51.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="32.29" x2="-15.03" y2="33.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.03" y1="14.7" x2="-16.34" y2="32.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.34" y1="13.24" x2="-15.03" y2="14.7" width="0" layer="19" extent="1-1"/>
+<wire x1="8.78" y1="71.85" x2="2.71" y2="89.44" width="0" layer="19" extent="1-1"/>
+<wire x1="7.47" y1="70.39" x2="8.78" y2="71.85" width="0" layer="19" extent="1-1"/>
+<wire x1="11.16" y1="52.8" x2="7.47" y2="70.39" width="0" layer="19" extent="1-1"/>
+<wire x1="9.85" y1="51.34" x2="11.16" y2="52.8" width="0" layer="19" extent="1-1"/>
+<wire x1="15.93" y1="33.75" x2="9.85" y2="51.34" width="0" layer="19" extent="1-1"/>
+<wire x1="14.62" y1="32.29" x2="15.93" y2="33.75" width="0" layer="19" extent="1-1"/>
 <wire x1="413.3" y1="139.1" x2="8.78" y2="71.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$120">
-<contactref element="ESC1" pad="ALPS2"/>
-<contactref element="ESC1" pad="MX2"/>
+<contactref element="M6" pad="ALPS2"/>
+<contactref element="M6" pad="MX2"/>
 <contactref element="DM6" pad="A"/>
-<wire x1="-43.9928" y1="-66.3702" x2="-44.0328" y2="-66.9502" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.42" y1="111.155" x2="-43.9928" y2="-66.3702" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.99" y1="111.03" x2="-4.42" y2="111.155" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="110.45" x2="-9.99" y2="111.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$127">
-<contactref element="GRAVE1" pad="ALPS2"/>
-<contactref element="GRAVE1" pad="MX2"/>
+<contactref element="M5" pad="ALPS2"/>
+<contactref element="M5" pad="MX2"/>
 <contactref element="DM5" pad="A"/>
-<wire x1="-59.6392" y1="-82.4992" x2="-59.6792" y2="-83.0792" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.42" y1="92.105" x2="-59.6392" y2="-82.4992" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.99" y1="91.98" x2="-4.42" y2="92.105" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="91.4" x2="-9.99" y2="91.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$128">
-<contactref element="TAB1" pad="ALPS2"/>
-<contactref element="TAB1" pad="MX2"/>
+<contactref element="M4" pad="ALPS2"/>
+<contactref element="M4" pad="MX2"/>
 <contactref element="DM4" pad="A"/>
-<wire x1="-43.9928" y1="-82.4992" x2="-44.0328" y2="-83.0792" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.42" y1="73.055" x2="-43.9928" y2="-82.4992" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.99" y1="72.93" x2="-3.42" y2="73.055" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="72.35" x2="-9.99" y2="72.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$129">
-<contactref element="CAPSLOCK1" pad="ALPS2"/>
-<contactref element="CAPSLOCK1" pad="MX2"/>
+<contactref element="M3" pad="ALPS2"/>
+<contactref element="M3" pad="MX2"/>
 <contactref element="DM3" pad="A"/>
-<wire x1="-59.6392" y1="-66.3702" x2="-59.6792" y2="-66.9502" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.42" y1="54.005" x2="-59.6392" y2="-66.3702" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$130">
-<contactref element="SHIFT1" pad="ALPS2"/>
-<contactref element="SHIFT1" pad="MX2"/>
-<contactref element="DM2" pad="A"/>
-<wire x1="-53.4924" y1="-48.006" x2="-53.5324" y2="-48.586" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.42" y1="34.955" x2="-53.4924" y2="-48.006" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.99" y1="53.88" x2="-2.42" y2="54.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="53.3" x2="-9.99" y2="53.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COL2">
 <contactref element="F1" pad="MX1"/>
@@ -4832,6 +4803,20 @@ design rules under a new name.</description>
 <wire x1="414.5" y1="109.95" x2="430.99" y2="108.49" width="0" layer="19" extent="1-1"/>
 <wire x1="413.19" y1="108.49" x2="414.5" y2="109.95" width="0" layer="19" extent="1-1"/>
 <wire x1="411.5" y1="147.3" x2="414.5" y2="109.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$126">
+<contactref element="M2" pad="ALPS2"/>
+<contactref element="M2" pad="MX2"/>
+<contactref element="DM2" pad="A"/>
+<wire x1="-9.99" y1="34.83" x2="-3.42" y2="34.955" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="34.25" x2="-9.99" y2="34.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$130">
+<contactref element="CTRL1" pad="ALPS2"/>
+<contactref element="CTRL1" pad="MX2"/>
+<contactref element="DM1" pad="A"/>
+<wire x1="-9.99" y1="15.78" x2="-4.42" y2="15.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.03" y1="15.2" x2="-9.99" y2="15.78" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
