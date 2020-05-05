@@ -21959,14 +21959,25 @@ Example: SX-32S</description>
 <wire x1="-162.56" y1="63.5" x2="-160.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$237" class="0">
+<net name="CC1" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PF0_ADC0"/>
+<wire x1="-63.5" y1="124.46" x2="-68.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="-68.58" y="124.46" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="CC1"/>
 <wire x1="-157.48" y1="73.66" x2="-162.56" y2="73.66" width="0.1524" layer="91"/>
+<label x="-162.56" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$255" class="0">
+<net name="CC2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PF1_ADC1"/>
+<wire x1="-63.5" y1="121.92" x2="-68.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="-68.58" y="121.92" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="CC2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
