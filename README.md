@@ -12,3 +12,7 @@ https://github.com/clueboard/eagle_libs
 
 ## Eagle Creator
 https://kalerator.clueboard.co/
+
+##Useful Doc
+
+https://www.reddit.com/r/MechanicalKeyboards/comments/fckxao/custom_114key_schematic_correct/
