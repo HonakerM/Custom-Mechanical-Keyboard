@@ -1199,15 +1199,9 @@
 <wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
 <wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
 <wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
-<wire x1="-1.6" y1="-5.9" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="1.6" y2="-3.1" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-3.1" x2="1.6" y2="-5.9" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-5.9" x2="-1.6" y2="-5.9" width="0.125" layer="22"/>
 <hole x="0" y="0" drill="4"/>
 <hole x="-5.08" y="0" drill="1.7"/>
 <hole x="5.08" y="0" drill="1.7"/>
-<hole x="0" y="-4.5" drill="2.4"/>
 <hole x="7" y="-11.9" drill="3.05"/>
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
@@ -1216,12 +1210,15 @@
 <pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
 <pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
 <pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
-<smd name="LED+" x="2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="R-" x="-2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="G-" x="-2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<smd name="B-" x="2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<text x="0" y="-7" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
-<text x="0" y="-7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="-7.8" x2="-2.5" y2="-2.8" width="0.125" layer="22"/>
+<wire x1="-2.5" y1="-2.8" x2="2.5" y2="-2.8" width="0.125" layer="22"/>
+<wire x1="2.5" y1="-2.8" x2="2.5" y2="-7.8" width="0.125" layer="22"/>
+<wire x1="2.5" y1="-7.8" x2="-2.5" y2="-7.8" width="0.125" layer="22"/>
+<hole x="0" y="-5.3" drill="2.4"/>
+<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
+<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
 </package>
 <package name="ALPSMX-4U-SMDRGB">
 <description>Keyboard switch package!</description>
@@ -6765,12 +6762,12 @@
 </device>
 <device name="-ALPSMX-2U-SMDRGB-ROTATED" package="ALPSMX-2U-SMDRGB-ROTATED">
 <connects>
-<connect gate="G$1" pin="DI" pad="R-"/>
-<connect gate="G$1" pin="DO" pad="G-"/>
-<connect gate="G$1" pin="GND" pad="B-"/>
+<connect gate="G$1" pin="DI" pad="DIN"/>
+<connect gate="G$1" pin="DO" pad="DOUT"/>
+<connect gate="G$1" pin="GND" pad="VSS"/>
 <connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
 <connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
-<connect gate="G$1" pin="VCC" pad="LED+"/>
+<connect gate="G$1" pin="VCC" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17921,7 +17918,6 @@ Example: SX-32S</description>
 <part name="DKP_8" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="KP_9" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DKP_9" library="Components" deviceset="DIODE" device="-SOD-123"/>
-<part name="EQUAL2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DEQUAL2" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="KP_5" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DKP_5" library="Components" deviceset="DIODE" device="-SOD-123"/>
@@ -17990,7 +17986,6 @@ Example: SX-32S</description>
 <part name="DKP_2" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="KP_3" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DKP_3" library="Components" deviceset="DIODE" device="-SOD-123"/>
-<part name="ENTER2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DENTER2" library="Components" deviceset="DIODE" device="-SOD-123"/>
 <part name="KP_DELETE2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-1U-SMDRGB"/>
 <part name="DDELETE2" library="Components" deviceset="DIODE" device="-SOD-123"/>
@@ -18076,6 +18071,8 @@ Example: SX-32S</description>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="PLUS2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-2U-SMDRGB-ROTATED"/>
+<part name="ENTER2" library="Keyboard" deviceset="KEYSWITCH-RGBSMDLED" device="-ALPSMX-2U-SMDRGB-ROTATED"/>
 </parts>
 <sheets>
 <sheet>
@@ -18517,9 +18514,6 @@ Example: SX-32S</description>
 <attribute name="NAME" x="890.1684" y="-121.6914" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="897.3058" y="-121.9454" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="EQUAL2" gate="G$1" x="929.64" y="-134.62" smashed="yes">
-<attribute name="NAME" x="922.83" y="-129.302" size="1" layer="95"/>
-</instance>
 <instance part="DEQUAL2" gate="D$1" x="929.64" y="-119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="926.9984" y="-121.6914" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="934.1358" y="-121.9454" size="1.778" layer="96" rot="R90"/>
@@ -18755,9 +18749,6 @@ Example: SX-32S</description>
 <attribute name="NAME" x="890.1684" y="-253.7714" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="897.3058" y="-254.0254" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ENTER2" gate="G$1" x="929.64" y="-266.7" smashed="yes">
-<attribute name="NAME" x="922.83" y="-261.382" size="1" layer="95"/>
-</instance>
 <instance part="DENTER2" gate="D$1" x="929.64" y="-251.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="926.9984" y="-253.7714" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="934.1358" y="-254.0254" size="1.778" layer="96" rot="R90"/>
@@ -18929,6 +18920,12 @@ Example: SX-32S</description>
 </instance>
 <instance part="ENTER" gate="G$1" x="557.403" y="-195.58" smashed="yes">
 <attribute name="NAME" x="550.593" y="-190.262" size="1" layer="95"/>
+</instance>
+<instance part="PLUS2" gate="G$1" x="929.64" y="-134.62" smashed="yes">
+<attribute name="NAME" x="922.83" y="-129.302" size="1" layer="95"/>
+</instance>
+<instance part="ENTER2" gate="G$1" x="929.64" y="-266.7" smashed="yes">
+<attribute name="NAME" x="922.83" y="-261.382" size="1" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -19306,12 +19303,6 @@ Example: SX-32S</description>
 <pinref part="DKP_9" gate="D$1" pin="A"/>
 </segment>
 </net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="EQUAL2" gate="G$1" pin="P1"/>
-<pinref part="DEQUAL2" gate="D$1" pin="A"/>
-</segment>
-</net>
 <net name="N$66" class="0">
 <segment>
 <pinref part="KP_5" gate="G$1" pin="P1"/>
@@ -19508,12 +19499,6 @@ Example: SX-32S</description>
 <segment>
 <pinref part="KP_3" gate="G$1" pin="P1"/>
 <pinref part="DKP_3" gate="D$1" pin="A"/>
-</segment>
-</net>
-<net name="N$100" class="0">
-<segment>
-<pinref part="ENTER2" gate="G$1" pin="P1"/>
-<pinref part="DENTER2" gate="D$1" pin="A"/>
 </segment>
 </net>
 <net name="N$101" class="0">
@@ -20427,15 +20412,15 @@ Example: SX-32S</description>
 <net name="COL24" class="0">
 <segment>
 <pinref part="RANDSONG" gate="G$1" pin="P0"/>
-<pinref part="ENTER2" gate="G$1" pin="P0"/>
 <wire x1="919.48" y1="2.54" x2="919.48" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="KP_DASH" gate="G$1" pin="P0"/>
-<wire x1="919.48" y1="-63.5" x2="919.48" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="919.48" y="-63.5"/>
-<pinref part="EQUAL2" gate="G$1" pin="P0"/>
+<wire x1="919.48" y1="-63.5" x2="919.48" y2="-132.08" width="0.1524" layer="91"/>
+<label x="922.02" y="-33.02" size="1.778" layer="95"/>
+<pinref part="PLUS2" gate="G$1" pin="P0"/>
 <wire x1="919.48" y1="-132.08" x2="919.48" y2="-264.16" width="0.1524" layer="91"/>
 <junction x="919.48" y="-132.08"/>
-<label x="922.02" y="-33.02" size="1.778" layer="95"/>
+<pinref part="ENTER2" gate="G$1" pin="P0"/>
 </segment>
 </net>
 <net name="COL16" class="0">
@@ -21069,7 +21054,7 @@ Example: SX-32S</description>
 <wire x1="890.27" y1="-149.86" x2="924.56" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="924.56" y1="-149.86" x2="924.56" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="KP_9" gate="G$1" pin="DO"/>
-<pinref part="EQUAL2" gate="G$1" pin="DI"/>
+<pinref part="PLUS2" gate="G$1" pin="DI"/>
 </segment>
 </net>
 <net name="N$194" class="0">
@@ -21077,8 +21062,8 @@ Example: SX-32S</description>
 <wire x1="927.1" y1="-144.78" x2="927.1" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="927.1" y1="-149.86" x2="958.85" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="958.85" y1="-149.86" x2="958.85" y2="-144.78" width="0.1524" layer="91"/>
-<pinref part="EQUAL2" gate="G$1" pin="DO"/>
 <pinref part="KP_5" gate="G$1" pin="DI"/>
+<pinref part="PLUS2" gate="G$1" pin="DO"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -21393,18 +21378,18 @@ Example: SX-32S</description>
 <segment>
 <pinref part="KP_3" gate="G$1" pin="DO"/>
 <wire x1="890.27" y1="-276.86" x2="890.27" y2="-281.94" width="0.1524" layer="91"/>
-<pinref part="ENTER2" gate="G$1" pin="DI"/>
 <wire x1="890.27" y1="-281.94" x2="924.56" y2="-281.94" width="0.1524" layer="91"/>
 <wire x1="924.56" y1="-281.94" x2="924.56" y2="-276.86" width="0.1524" layer="91"/>
+<pinref part="ENTER2" gate="G$1" pin="DI"/>
 </segment>
 </net>
 <net name="N$229" class="0">
 <segment>
-<pinref part="ENTER2" gate="G$1" pin="DO"/>
 <wire x1="927.1" y1="-276.86" x2="927.1" y2="-281.94" width="0.1524" layer="91"/>
 <wire x1="927.1" y1="-281.94" x2="958.85" y2="-281.94" width="0.1524" layer="91"/>
 <pinref part="KP_DELETE2" gate="G$1" pin="DI"/>
 <wire x1="958.85" y1="-281.94" x2="958.85" y2="-276.86" width="0.1524" layer="91"/>
+<pinref part="ENTER2" gate="G$1" pin="DO"/>
 </segment>
 </net>
 <net name="LED6" class="0">
@@ -21551,6 +21536,18 @@ Example: SX-32S</description>
 <segment>
 <pinref part="ENTER" gate="G$1" pin="P1"/>
 <pinref part="DENTER" gate="D$1" pin="A"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="DEQUAL2" gate="D$1" pin="A"/>
+<pinref part="PLUS2" gate="G$1" pin="P1"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="DENTER2" gate="D$1" pin="A"/>
+<pinref part="ENTER2" gate="G$1" pin="P1"/>
 </segment>
 </net>
 </nets>
