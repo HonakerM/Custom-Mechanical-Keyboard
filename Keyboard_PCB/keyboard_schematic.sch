@@ -18076,6 +18076,7 @@ Example: SX-32S</description>
 </parts>
 <sheets>
 <sheet>
+<description>Key connections</description>
 <plain>
 </plain>
 <instances>
@@ -21553,7 +21554,7 @@ Example: SX-32S</description>
 </nets>
 </sheet>
 <sheet>
-<description>Main Board</description>
+<description>Controller Board</description>
 <plain>
 </plain>
 <instances>
@@ -21831,6 +21832,9 @@ Example: SX-32S</description>
 <wire x1="-137.16" y1="50.8" x2="-137.16" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="-162.56" y1="71.12" x2="-137.16" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="D+@1"/>
+<wire x1="-193.04" y1="71.12" x2="-162.56" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-162.56" y="71.12"/>
 </segment>
 </net>
 <net name="D-USB" class="0">
@@ -21840,6 +21844,9 @@ Example: SX-32S</description>
 <wire x1="-139.7" y1="68.58" x2="-139.7" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="-162.56" y1="68.58" x2="-139.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="D-@1"/>
+<wire x1="-162.56" y1="68.58" x2="-193.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-162.56" y="68.58"/>
 </segment>
 </net>
 <net name="D+32U" class="0">
