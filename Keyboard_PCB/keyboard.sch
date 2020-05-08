@@ -1536,15 +1536,9 @@
 <wire x1="7" y1="-7" x2="7" y2="-8" width="0.125" layer="47"/>
 <wire x1="-7" y1="-8" x2="-7" y2="-7" width="0.125" layer="47"/>
 <wire x1="-7" y1="-7" x2="-7.75" y2="-7" width="0.125" layer="47"/>
-<wire x1="-1.6" y1="-5.9" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="-1.6" y2="-3.9" width="0.125" layer="22"/>
-<wire x1="-0.8" y1="-3.1" x2="1.6" y2="-3.1" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-3.1" x2="1.6" y2="-5.9" width="0.125" layer="22"/>
-<wire x1="1.6" y1="-5.9" x2="-1.6" y2="-5.9" width="0.125" layer="22"/>
 <hole x="0" y="0" drill="4"/>
 <hole x="-5.08" y="0" drill="1.7"/>
 <hole x="5.08" y="0" drill="1.7"/>
-<hole x="0" y="-4.5" drill="2.4"/>
 <hole x="-50" y="7" drill="3.05"/>
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
@@ -1553,12 +1547,16 @@
 <pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
 <pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
 <pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
-<smd name="LED+" x="2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="R-" x="-2.1" y="-3.775" dx="1" dy="0.75" layer="16"/>
-<smd name="G-" x="-2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<smd name="B-" x="2.1" y="-5.225" dx="1" dy="0.75" layer="16"/>
-<text x="0" y="-7" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
-<text x="0" y="-7" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
+<text x="-6.97" y="-3.81" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="-7.8" x2="-2.5" y2="-2.8" width="0.125" layer="22"/>
+<wire x1="-2.5" y1="-2.8" x2="2.5" y2="-2.8" width="0.125" layer="22"/>
+<wire x1="2.5" y1="-2.8" x2="2.5" y2="-7.8" width="0.125" layer="22"/>
+<wire x1="2.5" y1="-7.8" x2="-2.5" y2="-7.8" width="0.125" layer="22"/>
+<hole x="0" y="-5.3" drill="2.4"/>
+<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
+<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
 </package>
 <package name="ALPSMX-6.25U-SMDRGB-FLIPPED">
 <description>Keyboard switch package!</description>
@@ -6877,12 +6875,12 @@
 </device>
 <device name="-ALPSMX-6.25U-SMDRGB" package="ALPSMX-6.25U-SMDRGB">
 <connects>
-<connect gate="G$1" pin="DI" pad="R-"/>
-<connect gate="G$1" pin="DO" pad="G-"/>
-<connect gate="G$1" pin="GND" pad="B-"/>
+<connect gate="G$1" pin="DI" pad="DIN"/>
+<connect gate="G$1" pin="DO" pad="DOUT"/>
+<connect gate="G$1" pin="GND" pad="VSS"/>
 <connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
 <connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
-<connect gate="G$1" pin="VCC" pad="LED+"/>
+<connect gate="G$1" pin="VCC" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18316,6 +18314,7 @@ Example: SX-32S</description>
 <part name="P+170" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+172" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+174" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19658,6 +19657,7 @@ Example: SX-32S</description>
 <instance part="P+170" gate="1" x="832.612" y="-332.74" smashed="yes"/>
 <instance part="P+172" gate="1" x="906.272" y="-332.74" smashed="yes"/>
 <instance part="P+174" gate="1" x="977.392" y="-332.74" smashed="yes"/>
+<instance part="P+32" gate="1" x="350.52" y="5.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -22992,7 +22992,10 @@ Example: SX-32S</description>
 <segment>
 <pinref part="P+23" gate="1" pin="+5V"/>
 <wire x1="570.992" y1="2.54" x2="570.992" y2="0" width="0.1524" layer="91"/>
-<wire x1="570.992" y1="0" x2="567.69" y2="0" width="0.1524" layer="91"/>
+<wire x1="570.992" y1="0" x2="567.563" y2="0" width="0.1524" layer="91"/>
+<pinref part="VOLUMNEDOWN" gate="G$1" pin="VCC"/>
+<wire x1="567.563" y1="0" x2="567.436" y2="0" width="0.1524" layer="91"/>
+<junction x="567.563" y="0"/>
 </segment>
 <segment>
 <pinref part="P+24" gate="1" pin="+5V"/>
@@ -23616,6 +23619,12 @@ Example: SX-32S</description>
 <wire x1="977.392" y1="-335.28" x2="977.392" y2="-337.82" width="0.1524" layer="91"/>
 <wire x1="977.392" y1="-337.82" x2="974.09" y2="-337.82" width="0.1524" layer="91"/>
 <pinref part="BACKSPACE_1" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+32" gate="1" pin="+5V"/>
+<wire x1="350.52" y1="2.54" x2="350.52" y2="0" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="0" x2="347.218" y2="0" width="0.1524" layer="91"/>
+<pinref part="F8" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 </nets>
