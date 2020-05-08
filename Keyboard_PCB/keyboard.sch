@@ -19634,7 +19634,7 @@ Example: SX-32S</description>
 <instance part="P+136" gate="1" x="313.69" y="-261.62" smashed="yes"/>
 <instance part="P+137" gate="1" x="387.35" y="-261.62" smashed="yes"/>
 <instance part="P+138" gate="1" x="424.18" y="-261.62" smashed="yes"/>
-<instance part="P+142" gate="1" x="570.992" y="-261.62" smashed="yes"/>
+<instance part="P+142" gate="1" x="570.738" y="-261.62" smashed="yes"/>
 <instance part="P+144" gate="1" x="642.366" y="-261.62" smashed="yes"/>
 <instance part="P+146" gate="1" x="832.612" y="-261.62" smashed="yes"/>
 <instance part="P+147" gate="1" x="869.442" y="-261.62" smashed="yes"/>
@@ -21923,11 +21923,11 @@ Example: SX-32S</description>
 </net>
 <net name="N$230" class="0">
 <segment>
-<wire x1="554.863" y1="-276.86" x2="554.863" y2="-281.94" width="0.1524" layer="91"/>
-<wire x1="554.863" y1="-281.94" x2="814.07" y2="-281.94" width="0.1524" layer="91"/>
-<wire x1="814.07" y1="-281.94" x2="814.07" y2="-276.86" width="0.1524" layer="91"/>
-<pinref part="SHIFT2" gate="G$1" pin="DO"/>
 <pinref part="KP_1" gate="G$1" pin="DI"/>
+<pinref part="UP" gate="G$1" pin="DO"/>
+<wire x1="626.364" y1="-276.86" x2="626.364" y2="-281.94" width="0.1524" layer="91"/>
+<wire x1="626.364" y1="-281.94" x2="814.07" y2="-281.94" width="0.1524" layer="91"/>
+<wire x1="814.07" y1="-281.94" x2="814.07" y2="-276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$209" class="0">
@@ -23488,8 +23488,11 @@ Example: SX-32S</description>
 </segment>
 <segment>
 <pinref part="P+142" gate="1" pin="+5V"/>
-<wire x1="570.992" y1="-264.16" x2="570.992" y2="-266.7" width="0.1524" layer="91"/>
-<wire x1="570.992" y1="-266.7" x2="567.69" y2="-266.7" width="0.1524" layer="91"/>
+<wire x1="570.738" y1="-264.16" x2="570.738" y2="-266.7" width="0.1524" layer="91"/>
+<wire x1="570.738" y1="-266.7" x2="567.563" y2="-266.7" width="0.1524" layer="91"/>
+<pinref part="SHIFT2" gate="G$1" pin="VCC"/>
+<wire x1="567.563" y1="-266.7" x2="567.436" y2="-266.7" width="0.1524" layer="91"/>
+<junction x="567.563" y="-266.7"/>
 </segment>
 <segment>
 <pinref part="P+144" gate="1" pin="+5V"/>
@@ -23506,6 +23509,8 @@ Example: SX-32S</description>
 <segment>
 <pinref part="P+147" gate="1" pin="+5V"/>
 <wire x1="869.442" y1="-264.16" x2="869.442" y2="-266.7" width="0.1524" layer="91"/>
+<pinref part="KP_2" gate="G$1" pin="VCC"/>
+<wire x1="866.14" y1="-266.7" x2="869.442" y2="-266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+148" gate="1" pin="+5V"/>
@@ -23625,6 +23630,15 @@ Example: SX-32S</description>
 <wire x1="350.52" y1="2.54" x2="350.52" y2="0" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="0" x2="347.218" y2="0" width="0.1524" layer="91"/>
 <pinref part="F8" gate="G$1" pin="VCC"/>
+</segment>
+</net>
+<net name="N$117" class="0">
+<segment>
+<pinref part="SHIFT2" gate="G$1" pin="DO"/>
+<wire x1="554.863" y1="-276.86" x2="554.863" y2="-281.94" width="0.1524" layer="91"/>
+<wire x1="554.863" y1="-281.94" x2="623.824" y2="-281.94" width="0.1524" layer="91"/>
+<pinref part="UP" gate="G$1" pin="DI"/>
+<wire x1="623.824" y1="-281.94" x2="623.824" y2="-276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
