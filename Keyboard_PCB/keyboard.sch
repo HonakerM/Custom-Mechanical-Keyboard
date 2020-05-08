@@ -1061,15 +1061,15 @@
 <hole x="-5.08" y="0" drill="1.7"/>
 <hole x="5.08" y="0" drill="1.7"/>
 <hole x="0" y="-5.3" drill="2.4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
-<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="MX1" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="-6.97" y="-4.318" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center">&gt;NAME</text>
-<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VDD" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="DIN" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VSS" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
 </package>
 <package name="ALPSMX-2U-SMDRGB">
 <description>Keyboard switch package!</description>
@@ -1092,20 +1092,20 @@
 <hole x="11.9" y="7" drill="3.05"/>
 <hole x="-11.9" y="-8.24" drill="4"/>
 <hole x="11.9" y="-8.24" drill="4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
-<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="MX1" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="-6.97" y="-3.81" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center">&gt;NAME</text>
 <wire x1="-2.5" y1="-7.8" x2="-2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="-2.5" y1="-2.8" x2="2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-2.8" x2="2.5" y2="-7.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-7.8" x2="-2.5" y2="-7.8" width="0.125" layer="22"/>
 <hole x="0" y="-5.3" drill="2.4"/>
-<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VDD" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="DIN" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VSS" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
 </package>
 <package name="ALPSMX-2U-SMDRGB-FLIPPED">
 <description>Keyboard switch package!</description>
@@ -1204,19 +1204,19 @@
 <hole x="7" y="11.9" drill="3.05"/>
 <hole x="-8.24" y="-11.9" drill="4"/>
 <hole x="-8.24" y="11.9" drill="4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
-<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="MX1" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <wire x1="-2.5" y1="-7.8" x2="-2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="-2.5" y1="-2.8" x2="2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-2.8" x2="2.5" y2="-7.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-7.8" x2="-2.5" y2="-7.8" width="0.125" layer="22"/>
 <hole x="0" y="-5.3" drill="2.4"/>
-<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VDD" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="DIN" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VSS" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
 </package>
 <package name="ALPSMX-4U-SMDRGB">
 <description>Keyboard switch package!</description>
@@ -1543,20 +1543,20 @@
 <hole x="50" y="7" drill="3.05"/>
 <hole x="-50" y="-8.24" drill="4"/>
 <hole x="50" y="-8.24" drill="4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<pad name="ALPS1" x="-2.5" y="4" drill="1.3" diameter="2.54"/>
-<pad name="ALPS2" x="2.5" y="4.5" drill="1.3" diameter="2.54"/>
+<pad name="MX1" x="3.81" y="2.54" drill="1.3" diameter="2.54"/>
+<pad name="MX2" x="-2.54" y="5.08" drill="1.3" diameter="2.54"/>
+<pad name="ALPS1" x="2.5" y="4" drill="1.3" diameter="2.54"/>
+<pad name="ALPS2" x="-2.5" y="4.5" drill="1.3" diameter="2.54"/>
 <text x="-6.97" y="-3.81" size="1" layer="21" font="vector" ratio="13" rot="R90" align="center">&gt;NAME</text>
 <wire x1="-2.5" y1="-7.8" x2="-2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="-2.5" y1="-2.8" x2="2.5" y2="-2.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-2.8" x2="2.5" y2="-7.8" width="0.125" layer="22"/>
 <wire x1="2.5" y1="-7.8" x2="-2.5" y2="-7.8" width="0.125" layer="22"/>
 <hole x="0" y="-5.3" drill="2.4"/>
-<smd name="VDD" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DOUT" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="VSS" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="16"/>
-<smd name="DIN" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="16"/>
+<smd name="DOUT" x="2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VDD" x="2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="DIN" x="-2.45" y="-6.95" dx="1.5" dy="0.9" layer="1"/>
+<smd name="VSS" x="-2.45" y="-3.65" dx="1.5" dy="0.9" layer="1"/>
 </package>
 <package name="ALPSMX-6.25U-SMDRGB-FLIPPED">
 <description>Keyboard switch package!</description>
@@ -6709,8 +6709,8 @@
 <connect gate="G$1" pin="DI" pad="DIN"/>
 <connect gate="G$1" pin="DO" pad="DOUT"/>
 <connect gate="G$1" pin="GND" pad="VSS"/>
-<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
-<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
+<connect gate="G$1" pin="P0" pad="ALPS2 MX2"/>
+<connect gate="G$1" pin="P1" pad="ALPS1 MX1"/>
 <connect gate="G$1" pin="VCC" pad="VDD"/>
 </connects>
 <technologies>
@@ -6719,12 +6719,12 @@
 </device>
 <device name="-ALPSMX-2U-SMDRGB" package="ALPSMX-2U-SMDRGB">
 <connects>
-<connect gate="G$1" pin="DI" pad="DIN"/>
-<connect gate="G$1" pin="DO" pad="DOUT"/>
-<connect gate="G$1" pin="GND" pad="VSS"/>
-<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
-<connect gate="G$1" pin="P1" pad="ALPS2 MX2" route="any"/>
-<connect gate="G$1" pin="VCC" pad="VDD"/>
+<connect gate="G$1" pin="DI" pad="VSS"/>
+<connect gate="G$1" pin="DO" pad="VDD"/>
+<connect gate="G$1" pin="GND" pad="DIN"/>
+<connect gate="G$1" pin="P0" pad="ALPS2 MX2"/>
+<connect gate="G$1" pin="P1" pad="ALPS1 MX1" route="any"/>
+<connect gate="G$1" pin="VCC" pad="DOUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6758,12 +6758,12 @@
 </device>
 <device name="-ALPSMX-2U-SMDRGB-ROTATED" package="ALPSMX-2U-SMDRGB-ROTATED">
 <connects>
-<connect gate="G$1" pin="DI" pad="DIN"/>
-<connect gate="G$1" pin="DO" pad="DOUT"/>
-<connect gate="G$1" pin="GND" pad="VSS"/>
-<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
-<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
-<connect gate="G$1" pin="VCC" pad="VDD"/>
+<connect gate="G$1" pin="DI" pad="VSS"/>
+<connect gate="G$1" pin="DO" pad="VDD"/>
+<connect gate="G$1" pin="GND" pad="DIN"/>
+<connect gate="G$1" pin="P0" pad="ALPS2 MX2" route="any"/>
+<connect gate="G$1" pin="P1" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="VCC" pad="DOUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6875,12 +6875,12 @@
 </device>
 <device name="-ALPSMX-6.25U-SMDRGB" package="ALPSMX-6.25U-SMDRGB">
 <connects>
-<connect gate="G$1" pin="DI" pad="DIN"/>
-<connect gate="G$1" pin="DO" pad="DOUT"/>
-<connect gate="G$1" pin="GND" pad="VSS"/>
-<connect gate="G$1" pin="P0" pad="ALPS1 MX1"/>
-<connect gate="G$1" pin="P1" pad="ALPS2 MX2"/>
-<connect gate="G$1" pin="VCC" pad="VDD"/>
+<connect gate="G$1" pin="DI" pad="VSS"/>
+<connect gate="G$1" pin="DO" pad="VDD"/>
+<connect gate="G$1" pin="GND" pad="DIN"/>
+<connect gate="G$1" pin="P0" pad="ALPS2 MX2"/>
+<connect gate="G$1" pin="P1" pad="ALPS1 MX1"/>
+<connect gate="G$1" pin="VCC" pad="DOUT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24080,82 +24080,40 @@ Example: SX-32S</description>
 </net>
 <net name="ROW6" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PB0_SS_PCINT0"/>
-<wire x1="-63.5" y1="78.74" x2="-71.12" y2="78.74" width="0.1524" layer="91"/>
-<label x="-71.12" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROW5" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB1_PCINT1_SCLK"/>
-<wire x1="-63.5" y1="76.2" x2="-71.12" y2="76.2" width="0.1524" layer="91"/>
-<label x="-71.12" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROW4" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB2_PDI_PCINT2_MOSI"/>
-<wire x1="-63.5" y1="73.66" x2="-71.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="-71.12" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROW3" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB3_PDO_PCINT3_MISO"/>
-<wire x1="-63.5" y1="71.12" x2="-71.12" y2="71.12" width="0.1524" layer="91"/>
-<label x="-71.12" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROW2" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB4_PCINT4_OC2A"/>
-<wire x1="-63.5" y1="68.58" x2="-71.12" y2="68.58" width="0.1524" layer="91"/>
-<label x="-71.12" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ROW1" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PB5_PCINT5_OC1A"/>
-<wire x1="-63.5" y1="66.04" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
-<label x="-71.12" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LED6" class="0">
-<segment>
 <pinref part="IC3" gate="G$1" pin="PF2_ADC2"/>
 <wire x1="-63.5" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
 <label x="-71.12" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED5" class="0">
+<net name="ROW5" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PF3_ADC3"/>
 <wire x1="-63.5" y1="116.84" x2="-68.58" y2="116.84" width="0.1524" layer="91"/>
 <label x="-71.12" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED4" class="0">
+<net name="ROW4" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PF4_ADC4_TCK"/>
 <wire x1="-63.5" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
 <label x="-71.12" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED3" class="0">
+<net name="ROW3" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PF5_ADC5_TMS"/>
 <wire x1="-63.5" y1="111.76" x2="-68.58" y2="111.76" width="0.1524" layer="91"/>
 <label x="-71.12" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="ROW2" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PF6_ADC6_TDO"/>
 <wire x1="-63.5" y1="109.22" x2="-68.58" y2="109.22" width="0.1524" layer="91"/>
 <label x="-71.12" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="ROW1" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="PF7_ADC7_TDI"/>
 <wire x1="-63.5" y1="106.68" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
@@ -24328,6 +24286,48 @@ Example: SX-32S</description>
 <pinref part="IC3" gate="G$1" pin="PC7_A15_IC3_CLK0"/>
 <wire x1="7.62" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
 <label x="7.62" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED6" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB0_SS_PCINT0"/>
+<wire x1="-63.5" y1="78.74" x2="-71.12" y2="78.74" width="0.1524" layer="91"/>
+<label x="-71.12" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED5" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB1_PCINT1_SCLK"/>
+<wire x1="-63.5" y1="76.2" x2="-71.12" y2="76.2" width="0.1524" layer="91"/>
+<label x="-71.12" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED4" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB2_PDI_PCINT2_MOSI"/>
+<wire x1="-63.5" y1="73.66" x2="-71.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="-71.12" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED3" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB3_PDO_PCINT3_MISO"/>
+<wire x1="-63.5" y1="71.12" x2="-71.12" y2="71.12" width="0.1524" layer="91"/>
+<label x="-71.12" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB4_PCINT4_OC2A"/>
+<wire x1="-63.5" y1="68.58" x2="-71.12" y2="68.58" width="0.1524" layer="91"/>
+<label x="-71.12" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB5_PCINT5_OC1A"/>
+<wire x1="-63.5" y1="66.04" x2="-71.12" y2="66.04" width="0.1524" layer="91"/>
+<label x="-71.12" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
